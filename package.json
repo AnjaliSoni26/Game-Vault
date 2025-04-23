@@ -1,0 +1,33 @@
+{
+  "name": "rawg-gaming-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "^4.30.7",
+    "@reduxjs/toolkit": "^2.2.1",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "vite": "^5.4.17"
+  }
+}
